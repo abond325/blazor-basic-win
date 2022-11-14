@@ -50,7 +50,7 @@ namespace ApiIsolated
             }
             else if (temp <= 0)
             {
-                summary = "Freezing";
+                summary = "Freezing cold from api isolated";
             }
 
             return summary;
