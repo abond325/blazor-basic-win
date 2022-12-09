@@ -16,13 +16,6 @@ namespace BlazorApp.Api
 {
     public class TableStorage
     {
-        public class MyPoco
-        {
-            public string PartitionKey { get; set; }
-            public string RowKey { get; set; }
-            public string Text { get; set; }
-        }
-
         [FunctionName("TableOutput")]
         public static void TableOutput([HttpTrigger] dynamic input, ILogger log)
         {
