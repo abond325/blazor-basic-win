@@ -23,6 +23,7 @@ namespace BlazorApp.Api
             public string Text { get; set; }
         }
 
+        [FunctionName("TableOutput")]
         public static void TableOutput([HttpTrigger] dynamic input, ILogger log)
         {
             var conStr = "DefaultEndpointsProtocol=https;AccountName=staticwebappstore;AccountKey=SABE2yIUUV1ENEjgN6tUPGOie8mSDBxTAimySZcYsiXoQhk9Wze6ddLF1YUCAlbkPGqtkE4iGMW/+AStMCzDyA==;EndpointSuffix=core.windows.net";
