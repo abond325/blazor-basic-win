@@ -5,13 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.Extensions.Logging;
-
-
 using BlazorApp.Shared;
-using Microsoft.Azure.WebJobs.Description;
 using Azure.Data.Tables;
-using Azure;
-//using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BlazorApp.Api
 {
